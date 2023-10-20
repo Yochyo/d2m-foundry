@@ -33,3 +33,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/.gitignore
+/.idea/d2m-foundry.iml
+/.idea/modules.xml
+/.idea/php.xml
+/.idea/vcs.xml
