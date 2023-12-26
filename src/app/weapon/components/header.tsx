@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {Weapon} from "@/models/weapon";
+import {MinidenticonImg} from "@/app/weapon/components/icon";
 
 type Props = {
 };
@@ -8,7 +8,7 @@ export function Header(props: Props) {
     return (
         <header className="navbar bg-base-100">
             <div className="flex-1">
-                <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+                <a className="btn btn-ghost normal-case text-xl">D2M-Foundry</a>
             </div>
             <div className="flex-none gap-2">
                 <div className="form-control">
@@ -17,7 +17,7 @@ export function Header(props: Props) {
                 <div className="dropdown dropdown-end">
                     <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                         <div className="w-10 rounded-full">
-                            <img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                            <MinidenticonImg username={'profile'}/>
                         </div>
                     </label>
                     <ul tabIndex={0} className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
